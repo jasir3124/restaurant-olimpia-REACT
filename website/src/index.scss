@@ -1,4 +1,7 @@
 @import "./partials/navBar.scss";
+@import "./partials/titleSection.scss";
+@import "partials/aboutOurFood.scss";
+
 
 body {
   margin: 0;
@@ -9,15 +12,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.d-flex {
+  display: flex;
 }
-
-.titleSection {
-  display: block;
-  img{
-    height: 100px;
-    width: 100px;
-  }
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
 }
