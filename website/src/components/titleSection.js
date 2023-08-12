@@ -1,7 +1,7 @@
 export default function titleSelection(){
     return(
         <div className="titleSection">
-            <img src="./public/img/background for special menu.jpg" alt="image not found" />
+            <img src="../../assets/images/background-restaurant-photo.webp" alt="Background Restaurant" />
         </div>
     )
 }
