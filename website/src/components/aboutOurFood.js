@@ -23,7 +23,9 @@ export default function AboutourFood() {
         </div>
       </div>
       <div className="openingHours">
-        <h1>Opening Hours</h1>
+        <div>
+          <h1>Opening Hours</h1>
+        </div>
         <div className="d-flex openingHoursCont">
           <div className="w-50 openingHours1">
             <h3>SUNDAY & MONDAY-----CLOSED</h3>

@@ -1,6 +1,7 @@
 @import "./partials/navBar.scss";
 @import "./partials/titleSection.scss";
 @import "partials/aboutOurFood.scss";
+@import "./partials/menuSection.scss";
 
 
 body {
@@ -20,4 +21,34 @@ body {
 }
 .w-100 {
   width: 100%;
+}
+
+
+.specialMenu{
+  color: white;
+  position: relative;
+  img{
+    width: 100%;
+    height: 90%;
+  }
+  .speccialMenuCont{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    .titleCont{
+      display: grid;
+      justify-content: center;
+      width: 100%;
+      h1{
+        margin: 0;
+        font-size: 45px;
+      }
+      .titleUnderline {
+        height: 5px;
+        background-color: white;
+        border: 0;
+        width: 100%;
+      }
+    }
+  }
 }

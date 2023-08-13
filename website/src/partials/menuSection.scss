@@ -1,0 +1,73 @@
+.menuSection {
+    img {
+      position: absolute;
+      width: 100%;
+      margin-top: -21px;
+    }
+    .menu {
+      position: relative;
+      .titleCont {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        h1 {
+          width: fit-content;
+          font-size: 45px;
+          margin: 0;
+        }
+      }
+      .titleUnderline {
+        height: 5px;
+        background-color: black;
+        border: 0;
+        width: 100%;
+      }
+    }
+  }
+  
+  .menuCardHolder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .menuCard {
+    background-color: rgba(69, 69, 69, 0.9);
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    .cardInfoCont {
+      justify-content: space-evenly;
+    }
+    .cardInfoCont2{
+      display: grid;
+      justify-content: center;
+    }
+    .itemNumber {
+      font-size: 45px;
+      margin: 0;
+      margin-left: -80px;
+      border: 4px solid white;
+      border-radius: 20px;
+      padding-block: 5px;
+      padding-inline: 20px;
+    }
+    .itemName {
+      margin-top: 19px;
+      margin-bottom: 0;
+      width: 82px;
+  
+    }
+    .cardText{
+      color: #BCB9B3;
+    }
+    .waitTime{
+      font-size: 25px;
+    }
+    .cost{
+      color: #368c39;
+      font-size: 30px;
+      margin: 0;
+      margin-left: 80px;
+    }
+  }
+  
