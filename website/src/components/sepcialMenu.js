@@ -6,11 +6,13 @@ import SpecialMenuCard from "./specialMenuCard";
 export default function SpecialMenu() {
   const specialMenuItems = [
     {
+      name: "Frango Assado",
       image: FoodImage1,
       wait: "7min",
       cost: "6$",
     },
     {
+      name: "Tuscan Chicken Mac And Cheese",
       image: FoodImage2,
       wait: "15min",
       cost: "12$",
@@ -24,10 +26,11 @@ export default function SpecialMenu() {
           <h1>Special Menu</h1>
           <hr className="titleUnderline" />
         </div>
-        <div className="">
+        <div className="SpecialMenuCardCont">
           {specialMenuItems.map((item) => (
             <SpecialMenuCard
               image={item.image}
+              name={item.name}
               wait={item.wait}
               cost={item.cost}
             />
