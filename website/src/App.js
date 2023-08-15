@@ -4,6 +4,7 @@ import TitleSection from './components/titleSection';
 import AboutourFood from './components/aboutOurFood';
 import MenuSection from './components/menuSection';
 import SpecialMenu from './components/sepcialMenu';
+import DesertsSection from './components/desertsSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutourFood />
       <MenuSection />
       <SpecialMenu />
+      <DesertsSection />
     </div>
   );
 }
