@@ -1,0 +1,26 @@
+.aboutSection {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 700px;
+  .AboutSectionLeftS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495057;
+    color: white;
+    h1 {
+      font-weight: 200;
+    }
+  }
+  .AboutSectionRightS {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    padding: 100px;
+    h1 {
+      font-weight: 300;
+      font-size: 50px;
+      margin: 0;
+    }
+  }
+}

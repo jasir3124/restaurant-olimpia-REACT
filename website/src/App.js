@@ -5,6 +5,7 @@ import AboutourFood from './components/aboutOurFood';
 import MenuSection from './components/menuSection';
 import SpecialMenu from './components/sepcialMenu';
 import DesertsSection from './components/desertsSection';
+import AboutPage from './components/aboutPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MenuSection />
       <SpecialMenu />
       <DesertsSection />
+      <AboutPage />
     </div>
   );
 }

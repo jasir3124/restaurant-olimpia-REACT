@@ -1,0 +1,50 @@
+.DesertsSection {
+    position: relative;
+    color: white;
+    height: 840px;
+    img {
+      width: 100%;
+      height: 840px;
+    }
+    .DesertsSectionCont {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin-top: 20px;
+      .titleCont {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        h1 {
+          margin: 0;
+          font-size: 45px;
+        }
+        .titleUnderline {
+          height: 5px;
+          background-color: white;
+          border: 0;
+          width: 100%;
+        }
+      }
+      .CardsCont{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 20px;
+      }
+    }
+  }
+  
+  
+  .DesertsCard{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 40px;
+    display: grid;
+    border-radius: 30px;
+    height: 270px;
+    justify-items: center;
+    align-content: center;
+    h1{
+      font-weight: 400;
+      font-size: 35px;
+    }
+  }
