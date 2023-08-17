@@ -1,0 +1,79 @@
+.contactSection {
+  background-color: #dee2e6;
+  padding-top: 10px;
+}
+.titleCont {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  h1 {
+    margin: 0;
+    font-size: 45px;
+  }
+  .TitleUnderline {
+    height: 5px;
+    background-color: black;
+    border: 0;
+    width: 100%;
+  }
+}
+.contactCont {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  .contactForm {
+    padding: 2em;
+    display: grid;
+    input {
+      height: 40px;
+      font-size: 20px;
+      padding: 3px 0 3px 10px;
+      margin-bottom: 20px;
+    }
+    textarea {
+      font-size: 20px;
+      padding: 3px 0 0 10px;
+      resize: none;
+    }
+  }
+  .map {
+    padding: 2em;
+    iframe {
+      width: 600px;
+      height: 450px;
+      border: 0;
+    }
+  }
+}
+.button {
+  background-color: black;
+  color: #fff;
+  width: 8.5em;
+  height: 2.9em;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  font-size: 20px;
+  margin: 30px 0 0 32%;
+}
+
+.button:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em;
+}
