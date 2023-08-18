@@ -6,8 +6,8 @@ import MenuSection from './components/menuSection';
 import SpecialMenu from './components/sepcialMenu';
 import DesertsSection from './components/desertsSection';
 import AboutPage from './components/aboutPage';
-import ContactSection from './components/aboutSection';
-
+import ContactSection from './components/contactSection';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
       <DesertsSection />
       <AboutPage />
       <ContactSection />
+      <Footer />
     </div>
   );
 }
